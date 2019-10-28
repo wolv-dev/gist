@@ -1,0 +1,18 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "indentation": 4,
+        "string-quotes": "double",
+        "no-duplicate-selectors": true,
+        "no-descending-specificity": null,
+        "color-hex-length": "long",
+        "color-named": "never",
+        "selector-max-id": 1,
+        "selector-attribute-quotes": "always",
+        "value-no-vendor-prefix": true,
+        "function-url-scheme-blacklist": [
+            "ftp"
+        ],
+        "selector-pseudo-element-colon-notation": "single"
+    }
+}
